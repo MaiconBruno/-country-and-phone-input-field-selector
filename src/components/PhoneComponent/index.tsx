@@ -179,6 +179,14 @@ export const PhoneComponent: React.FC = () => {
       case true:
         setActiveButton(false);
         setToogle(true);
+        setInfo(
+          {
+            message: 'You number must contain',
+            ddd: false,
+            numberState: false,
+            color: '#89C3DE',
+            InputBgColor: '#89C3DE',
+          })
         break;
       case false:
         setActiveButton(true);
