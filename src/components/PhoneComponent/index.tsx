@@ -179,6 +179,7 @@ export const PhoneComponent: React.FC = () => {
       case true:
         setActiveButton(false);
         setToogle(true);
+        setPhoneNumber('');
         setInfo(
           {
             message: 'You number must contain',
